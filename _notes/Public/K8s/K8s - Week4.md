@@ -1,6 +1,6 @@
 ---
 title: K8s - Week4
-feed: show
+feed: hide
 ---
 
 ## CI / CD
