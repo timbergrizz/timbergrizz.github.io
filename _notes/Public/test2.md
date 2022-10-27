@@ -1,7 +1,7 @@
 ---
-title: testing
+title : test2
 feed: show
-date: 28-10-2022
+date : 28-10-2022
 ---
 
-does it works?
+is it works?
