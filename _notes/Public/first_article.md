@@ -1,11 +1,8 @@
 
 ---
-
-title: Credits
+title: first article
 feed: show
 date: 11-05-2022
-format: list
-
 ---
 
 원래는 노션이나 옵시디언에 개인적으로만 데이터를 저장해 왔습니다. 근데 이걸 공개해야하는 순간들이 오더라고요.
