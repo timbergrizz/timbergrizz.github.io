@@ -1,4 +1,3 @@
-
 ---
 title : first_article
 feed: show
