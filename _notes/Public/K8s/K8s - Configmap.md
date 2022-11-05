@@ -1,9 +1,7 @@
-
 ---
 title: K8s - Configmap
 feed: hide
 ---
-
 ## Configmap
 - 우리가 환경 설정 파일 빼는데, 이렇게 환경 설정 파일 빼는걸 configmap이라 한다.
 	- 운영 환경과 개발 환경 뺄 수 있고, 이를 환경 변수로 빼는걸 configmap이라 한다.

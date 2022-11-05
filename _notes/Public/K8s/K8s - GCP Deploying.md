@@ -1,8 +1,7 @@
 ---
-title: K8s - GCP, Deployment, Service
+title: K8s - GCP Deploying
 feed: hide
 ---
-
 ## GCP 설정
 - 구글은 무려 300달러 크레딧을 묻지도 따지지도 않고 준다.
 - 근데 ssh 세팅하는게 좀 짜친다.
