@@ -3,14 +3,34 @@ title: Kubernetes
 feed: show
 ---
 
-쿠버네티스와 관련해서 들었던 강의와 이를 정리한 내용들을 올리고자 합니다.
+쿠버네티스와 관련된 내용들입니다.
 
-[[K8s - Week1]]
+[[Micro Service Architecture]]
 
-[[K8s - Week2]]
+[[Container]]
 
-[[K8s - Week3]]
+[[K8s - What is Kubernetes]]
 
-[[K8s - Week4]]
+[[K8s - Service, Deployment]]
 
-[[K8s - Week5]]
+[[K8s - GCP Deploying]]
+
+[[K8s - Configmap]]
+
+[[K8s - Base Knowledges]]
+
+[[K8s - Resource Management]]
+
+[[K8s - Scheduling]]
+
+[[K8s - Monitoring and Logging]]
+
+[[K8s - Auto Scaling]]
+
+[[K8s - Continuous Integration and Deployment]]
+
+[[K8s - Security]]
+
+[[K8s - Best Practices]]
+
+[[Terry's Tips]]
