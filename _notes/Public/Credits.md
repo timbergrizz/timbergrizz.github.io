@@ -6,6 +6,8 @@ permalink: /credits
 format: list
 ---
 
+테마를 만들어주신 분들입니다.
+
 -   [Raghuveer](https://github.com/rgvr), who created [Simply Jekyll theme](https://github.com/rgvr/simply-jekyll)
 -   [Santosh Thottingal](https://github.com/santhoshtr) who introduced me to Digital Garden
 -   [Puttalu](https://github.com/aashiks) for OrgMode classes!
@@ -19,3 +21,4 @@ format: list
 - [Anish](https://github.com/anishsheela), for JS corrections
 - [Binny](https://github.com/binnyva) for making [Gatsby version](https://github.com/binnyva/gatsby-garden) of the same theme
 - [Gnuanu](https://github.com/gnuanu) for beta testing and private bug reporting
+
