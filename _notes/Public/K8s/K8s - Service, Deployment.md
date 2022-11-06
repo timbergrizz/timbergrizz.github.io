@@ -3,6 +3,21 @@ title: K8s - Service, Deployment
 feed: hide
 ---
 ## Deployment
+
+### Using kubectl to Create a Deployment
+- 쿠버네티스 클러스터 올려봤으면, 컨테이너로 만든 앱을 올려볼 수 있다. [[K8s - Clusters]]
+	- 이를 위해서는 deployment configuration을 해보면 좋다.
+- Deployment는 쿠버네티스가 어플리케이션의 인스턴스를 어떻게 조정할 것인지를 설정한다.
+- Deployment를 만들면, Control Plane이 어플리케이션 인스턴스를 각 노드에 동작시키도록 스케줄링한다.
+- 어플리케이션 인스턴스가 만들어지면, Deployment 컨트롤러가 인스턴스를 모니터링한다.
+	- Node에서 인스턴스가 내려가거나 삭제되면, 컨트롤러가 클러스터의 다른 노드로 자동으로 복구한다.
+	- 클러스터에 대한 문제 / 점검에 대한 자가 복구 매커니즘을 지닌다.
+- 예전의 아키텍처는 이러한 자가 복구 능력이 부족했지만, 쿠버네티스는 합니다.![](https://d33wubrfki0l68.cloudfront.net/8700a7f5f0008913aa6c25a1b26c08461e4947c7/cfc2c/docs/tutorials/kubernetes-basics/public/images/module_02_first_app.svg)
+- Deployment는 Kubectl 이용해서 할 수 있다.
+	- Kubectl은 ubernetes API로 클러스터와 소통한다.
+- Deployment를 생성하면, 컨테이너 이미지와 레플리카의 개수를 정의해야 한다.
+	- 이러한 정보를 deployment 업데이트하면서 반영할 수 있다.
+	- NGINX에 올라간 튜토리얼을 따라해보면서 한번 해보자.
 ### Deployment strategy
 - 전략이 존재한다.
 	- 하드웨어를 돌리고 있을 때, 새로운 버전을 배포할 때 이를 지운 후, 새 포드를 한번에 올린다.
@@ -46,6 +61,8 @@ feed: hide
 - 서비스는 여러개의 타입이 존재한다.
 ###  ClusterIP
 - 생성하면 이게 기본이다.
+- 클러스터 내부의 IP를 노출시킨다. 클러스터 내부에서만 접근이 가능하도록 한다
+
 ### Load Balancer
 - VPC가 있고 내부에 쿠베가 있을 때, 클러스터 ip를 만들면 클러스터 ip로 만든 쿠베는 프라이빗 ip로만 접속할 수 있다.
 	- 쿠베 외부에서 접속이 안된다.
@@ -66,9 +83,10 @@ feed: hide
 	- 외부의 IP로 연결해준다.
 		- 코딩할 때 테스트를 위해 하드 코딩으로 부르게 만들 수 있고, 이럴 때 external name 사용한다.
 ### NordPort
-- 실제 노드가 public port를 열어 여기서 라우팅을 한다.
-- 실제 로드 밸런서를 사용할 수 없을 때 사용한다.
-- 권장하지 않는 방법이다.
+- 서비스를 선택된 노드와 같은 포트에 있는 것에만 expose한다.
+	- 실제 노드가 public port를 열어 여기서 라우팅을 한다.
+- ClusterIP의 수퍼셋으로, 서비스를 클러스터 외부에서 접속할 수 있도록 한다.
+- 실제 로드 밸런서를 사용할 수 없을 때 사용하지만, 권장하지 않는 방법이다.
 	- 노드가 public ip를 갖고 외부로 노출되고, 따라서 보안적으로 좋지 않다.
 	- 웬만하면 로드밸런서 통해서만 트래픽 받도록 설계해야 한다.
 
@@ -101,3 +119,40 @@ feed: hide
 			- 밖을 묶는 로드밸런서는 ALB / 안을 묶는 로드밸런서는 ELB로 찍힌다.
 		- 서비스를 구성하게 되면 Ingress를 붙여 엔드 포인트를 뽑아주어야 한다.
 - Ingress는 L7 로드밸런서인데, HTTP이므로 HTTPS로도 커뮤니케이션을 할 수 있다.
+
+
+## Using a Service to Expose Your App
+### Overview of Kubernetes Services
+- 쿠버네티스의 Pod는 라이프사이클을 가지고 있다.
+	- 워커 노드 죽으면 안에 있던 Pod 같이 죽는다.
+	- ReplicaSet이 클러스터에서 새로운 Pod 생성하여 어플리케이션 작동하도록 할 수 있다.
+		- 죽어서 다른 걸로 바꾸거나 해도 크게 문제되지 않는다.
+- 쿠버네티스의 각 Pod는 unique한 ip 주소를 갖고 있다.
+	- 같은 노드에 들어있는 Pod 또한 그러하다.
+- 쿠버네티스의 서비스는 Pod의 논리적인 집합과 이를 접근하는 정책에 대한 추상화이다.
+	- 서비스는 의존적인 Pod를 루즈한 couplingㅡㅇ로 정의할 수 있다.
+- 서비스는 YAML이나 JSON등의 문서로 표현될 수 있다.
+- Pod 집합은 서비스로 LabelSelector를 통해 타겟팅 된다.
+- 각 Pod가 Unique한 ip 주소를 갖고 있지만, 클러스터 외부에서 서비스 없이 이를 사용할 수 없다.
+	- 서비스는 어플리케이션이 트래픽을 수용할 수 있도록 한다.
+- 서비스는 ServiceSpec에 type을 정의하여 여러가지 방법으로 노출 시킬 수 있다.
+	- ClusterIP
+	- NodePort
+	- LoadBalancer
+	- ExternalName
+		- CNAME 레코드와 값을 통해 서비스의 컨텐츠를 externalName 필드로 맵핑한다.
+
+- 서비스의 유즈 케이스에서 selector를 정의하지 않는 경우가 있다.
+	- 이런 경우 대응되는 Endpoint 객체를 만들지 않는다.
+	- 이렇게 해서 유저가 직접 서비스로 가는 endpoint를 정의할 수 있게 된다.
+	- 또한 ExternalName 타입을 strict하게 사용하면 셀렉털르 사용하지 않는다.
+
+### Services and Labels
+- 서비스는 Pod들의 집합에서 트래픽을 연결한다.
+- 서비스는 쿠베 내부에서 어플리케이션에 영향을 주지 않고 Pod이 죽고 복제되는 상황을 추상화한다.
+	- 의존적인 Pod를 발견하고 라우팅하는 것은 쿠버네티스 서비스에 의해 이루어진다.
+- 서비스는 label과 selector를 이용해 Pod을 찾는다.
+	- Label은 키/값 페어로 연결되어 있는 객체이며, 여러가지 용도로 사용될 수 있다.
+		- 개발 / 테스트 / 프로덕션을 위한 객체 디자인
+		- 버전 태그
+		- 객체 분류
