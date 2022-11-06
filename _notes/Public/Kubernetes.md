@@ -28,6 +28,7 @@ feed: show
 [[K8s - Auto Scaling]]
 
 [[K8s - Continuous Integration and Deployment]]
+[[ArgoCD]]
 
 [[K8s - Security]]
 
