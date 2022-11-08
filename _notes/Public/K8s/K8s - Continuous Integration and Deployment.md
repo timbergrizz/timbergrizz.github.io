@@ -27,14 +27,14 @@ feed: hide
 	- helm이 이러한 개념을 사용한다.
 
 ### Helm
-- 변수화 시켜서 아키텍처를 만들 수 있도록 한 것이다.![[Pasted image 20221025142306.png]]
+- 변수화 시켜서 아키텍처를 만들 수 있도록 한 것이다.
 	- 일종의 템플릿을 제공한다고 볼 수 있다.
 	- 이러한 아키텍처에 대해 패키지화를 할 수 있다.
 - 서비스간의 dependency를 갖는 경우가 있다.
 	- 이러한 dependency도 명시하여 쿠버네티스에 작동시킬 수 있다.
 	- 엄청 많이 쓴다.
 
-- Helm 파일은 다음과 같이 구성된다.![[Pasted image 20221025142453.png]]
+- Helm 파일은 다음과 같이 구성된다.
 	- helm tiller가 예전엔 필요했는데 지금은 상관 없다.
 - templete based package manager이다.
 	- helm을 통해 한번에 올리고, 내리기 편해진다.
@@ -75,8 +75,8 @@ feed: hide
 	- helm이 되고, kustomize되서 좋다.
 		- kustomize는 configuration management tool이다.
 			- helm이랑 비슷한데, 이건 일반적인 템플릿 매니저다.
-	- skaffold는 프로파일 개념으로 작동시킬 수 있고, 상황에 따라 다르게 CD가 이루어지도록 설정할 수 있다.![[Pasted image 20221025144011.png]]
-	- yaml 파일 예시![[Pasted image 20221025144051.png]]
+	- skaffold는 프로파일 개념으로 작동시킬 수 있고, 상황에 따라 다르게 CD가 이루어지도록 설정할 수 있다.
+	- yaml 파일 예시
 	- skaffold는 plugable 아키텍처이다. [[Deploying with Kubernetes]]
 		- helm과 같이 사용하면 좋다.
 			- skaffold는 버전이나 롤백이 아니고, helm은 빌드하고 배포하지는 않는다.
