@@ -1,7 +1,6 @@
 ---
 title : Data Engineering
 feed : show
-date : 09-11-2022
 ---
 
 데이터 엔지니어링과 관련된 글들을 정리합니다.

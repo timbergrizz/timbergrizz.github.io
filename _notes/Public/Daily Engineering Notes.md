@@ -1,6 +1,6 @@
 ---
-title: Daily Engineering Notes
-feed: show
+title : Daily Engineering Notes
+feed : hide
 ---
 
 

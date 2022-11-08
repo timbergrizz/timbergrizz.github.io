@@ -1,6 +1,6 @@
 ---
-title: Kubernetes
-feed: show
+title : Kubernetes
+feed : show
 ---
 
 쿠버네티스와 관련된 내용들입니다.

@@ -1,6 +1,6 @@
 ---
-title: Javascript
-feed: show
+title : Javascript
+feed : show
 ---
 
 
