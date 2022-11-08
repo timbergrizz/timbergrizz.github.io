@@ -1,6 +1,6 @@
 ---
 title : Data Engineering
-feed : hide
+feed : show
 date : 09-11-2022
 ---
 
