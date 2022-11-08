@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "1d9328167a4f0842",
+    "type": "split",
+    "children": [
+      {
+        "id": "a36498daf90ed206",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6d545f7c08cef3b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "consistency.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "56fb16c4e3dc2552",
+    "type": "split",
+    "children": [
+      {
+        "id": "158f5f1935c105c6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4a34f83816449897",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "33243003a915eb74",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6b72094c22d110b2",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ff46d77fa5b52fe0",
+    "type": "split",
+    "children": [
+      {
+        "id": "4bd0b2086239e64d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9d464ded35a0c639",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "consistency.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4143aaf9891de5f2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "consistency.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "51134f01c9442f58",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d578a7ac7f1c88b2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "consistency.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "6d545f7c08cef3b9",
+  "lastOpenFiles": [
+    "your-first-note.md",
+    "move your body every day.md"
+  ]
+}
