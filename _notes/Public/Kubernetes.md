@@ -5,7 +5,7 @@ feed: show
 
 쿠버네티스와 관련된 내용들입니다.
 
-[[Micro Service Architecture]]
+[[Micro Service Architecture and Service]]
 
 [[Container]]
 
