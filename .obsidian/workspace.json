@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/Machine Learning.md",
+                "file": "_notes/Public/K8s/Micro Service Architecture and Service.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Public/Machine Learning.md",
+                "file": "_notes/Public/K8s/Micro Service Architecture and Service.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_notes/Public/Machine Learning.md",
+                "file": "_notes/Public/K8s/Micro Service Architecture and Service.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_notes/Public/Machine Learning.md"
+                "file": "_notes/Public/K8s/Micro Service Architecture and Service.md"
               }
             }
           }
@@ -138,15 +138,15 @@
   },
   "active": "3021700789f25a02",
   "lastOpenFiles": [
+    "_notes/Public/Kubernetes.md",
+    "_notes/Public/Javascript.md",
+    "_notes/Public/Machine Learning.md",
     "assets/img/3-how-to.png",
     "assets/img/2-how-to.png",
     "assets/img/1-how-to.png",
     "Personal Stories/My Workbench (2022).md",
     "Personal Stories.md",
     "DEN/DEN - 2022-11-08.md",
-    "Datas/대형 서비스 아키텍처.md",
-    "Machine Learning/Convolution Neural Network.md",
-    "K8s/Micro Service Architecture and Service.md",
-    "Machine Learning.md"
+    "Datas/대형 서비스 아키텍처.md"
   ]
 }

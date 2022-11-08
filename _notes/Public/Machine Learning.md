@@ -7,5 +7,3 @@ feed: show
 [[NLP]]
 
 [[Convolution Neural Network]]
-
-![](./images/nord.png)
