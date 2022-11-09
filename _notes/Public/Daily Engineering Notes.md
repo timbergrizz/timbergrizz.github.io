@@ -1,8 +1,8 @@
 ---
 title : Daily Engineering Notes
-feed : hide
+feed : show
+date : 09-11-2022
 ---
-
 
 데일리 엔지니어링 노트가 담긴 리스트입니다. 없는 날에는 공부나 일을 하지 않았다는 뜻입니다.
 

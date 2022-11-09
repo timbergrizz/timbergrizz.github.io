@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/Credits.md",
+                "file": "_notes/Public/Daily Engineering Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Public/Credits.md",
+                "file": "_notes/Public/Daily Engineering Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_notes/Public/Credits.md",
+                "file": "_notes/Public/Daily Engineering Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_notes/Public/Credits.md"
+                "file": "_notes/Public/Daily Engineering Notes.md"
               }
             }
           }
@@ -138,15 +138,15 @@
   },
   "active": "3021700789f25a02",
   "lastOpenFiles": [
+    "_notes/Public/DEN/DEN - 2022-11-06.md",
     "_notes/Public/Daily Engineering Notes.md",
-    "_notes/Public/Data Engineering.md",
-    "_notes/Public/first_article.md",
-    "_notes/Public/Javascript.md",
-    "_notes/Public/Kubernetes.md",
     "_notes/Public/Personal Stories.md",
     "_notes/Public/Machine Learning.md",
-    "_notes/Public/_template/Untitled.md",
-    "_notes/Public/K8s/K8s - Continuous Integration and Deployment.md",
-    "Pasted image 20221025144011.png.md"
+    "_notes/Public/Javascript.md",
+    "_notes/Public/Kubernetes.md",
+    "_notes/Public/first_article.md",
+    "_notes/Public/Data Engineering.md",
+    "_notes/Public/Machine Learning/NLP/NLP - CRF 기반 품사 판별기.md",
+    "_notes/Public/Machine Learning/NLP/NLP - Preprocessing.md"
   ]
 }
