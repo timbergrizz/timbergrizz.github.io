@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2ece216693f9538e",
+        "id": "de4f60093dadbce7",
         "type": "tabs",
         "children": [
           {
-            "id": "3021700789f25a02",
+            "id": "09f57d6fc8ae65fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/Daily Engineering Notes.md",
+                "file": "_notes/Public/Machine Learning/NLP.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c6413cda1062b958",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Public/Daily Engineering Notes.md",
+                "file": "_notes/Public/Machine Learning/NLP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_notes/Public/Daily Engineering Notes.md",
+                "file": "_notes/Public/Machine Learning/NLP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_notes/Public/Daily Engineering Notes.md"
+                "file": "_notes/Public/Machine Learning/NLP.md"
               }
             }
           }
@@ -136,17 +137,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3021700789f25a02",
+  "active": "09f57d6fc8ae65fd",
   "lastOpenFiles": [
-    "_notes/Public/DEN/DEN - 2022-11-06.md",
+    "_notes/Public/Machine Learning/NLP/NLP - BERT.md",
+    "_notes/Public/Machine Learning/NLP/NLP - CRF 기반 품사 판별기.md",
+    "_notes/Public/Machine Learning/NLP/NLP - kkma.md",
+    "_notes/Public/Machine Learning/NLP/NLP - Preprocessing.md",
     "_notes/Public/Daily Engineering Notes.md",
+    "_notes/Public/DEN/DEN - 2022-11-06.md",
     "_notes/Public/Personal Stories.md",
     "_notes/Public/Machine Learning.md",
     "_notes/Public/Javascript.md",
-    "_notes/Public/Kubernetes.md",
-    "_notes/Public/first_article.md",
-    "_notes/Public/Data Engineering.md",
-    "_notes/Public/Machine Learning/NLP/NLP - CRF 기반 품사 판별기.md",
-    "_notes/Public/Machine Learning/NLP/NLP - Preprocessing.md"
+    "_notes/Public/Kubernetes.md"
   ]
 }
