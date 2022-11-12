@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/Machine Learning/NLP.md",
+                "file": "_notes/Public/DEN/DEN - 2022-11-11.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c6413cda1062b958",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Public/Machine Learning/NLP.md",
+                "file": "_notes/Public/DEN/DEN - 2022-11-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_notes/Public/Machine Learning/NLP.md",
+                "file": "_notes/Public/DEN/DEN - 2022-11-11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_notes/Public/Machine Learning/NLP.md"
+                "file": "_notes/Public/DEN/DEN - 2022-11-11.md"
               }
             }
           }
@@ -139,15 +138,15 @@
   },
   "active": "09f57d6fc8ae65fd",
   "lastOpenFiles": [
+    "_notes/Public/Daily Engineering Notes.md",
+    "_notes/Public/Machine Learning/NLP.md",
     "_notes/Public/Machine Learning/NLP/NLP - BERT.md",
     "_notes/Public/Machine Learning/NLP/NLP - CRF 기반 품사 판별기.md",
     "_notes/Public/Machine Learning/NLP/NLP - kkma.md",
     "_notes/Public/Machine Learning/NLP/NLP - Preprocessing.md",
-    "_notes/Public/Daily Engineering Notes.md",
     "_notes/Public/DEN/DEN - 2022-11-06.md",
     "_notes/Public/Personal Stories.md",
     "_notes/Public/Machine Learning.md",
-    "_notes/Public/Javascript.md",
-    "_notes/Public/Kubernetes.md"
+    "_notes/Public/Javascript.md"
   ]
 }
