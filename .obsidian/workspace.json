@@ -20,15 +20,31 @@
             }
           },
           {
-            "id": "74650ee4b74a1dd6",
+            "id": "da3d80ae8e5081e3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_notes/Public/Datas/분산형 데이터 분석 아키텍처.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f0ae6ec3ba552959",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_notes/Public/Datas/AWS Redshift.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_notes/Public/Datas/AWS Redshift.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_notes/Public/Datas/AWS Redshift.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_notes/Public/Datas/AWS Redshift.md"
+              }
             }
           }
         ]
@@ -141,17 +161,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "74650ee4b74a1dd6",
+  "active": "f0ae6ec3ba552959",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "_notes/Public/DEN/DEN - 2022-11-14.md",
-    "_notes/Public/Personal Stories.md",
+    "_notes/Public/Datas/Apache Airflow.md",
+    "_notes/Public/Data Engineering.md",
+    "_notes/Public/Datas/AWS Redshift.md",
     "_notes/Public/Datas/분산형 데이터 분석 아키텍처.md",
-    "_notes/Public/K8s/Kubeflow - Why Kubeflow?.md",
-    "_notes/Public/DEN/DEN - 2022-11-11.md",
-    "_notes/Public/Daily Engineering Notes.md",
-    "_notes/Public/Machine Learning/NLP.md",
-    "_notes/Public/Machine Learning/NLP/NLP - BERT.md",
-    "_notes/Public/Machine Learning/NLP/NLP - CRF 기반 품사 판별기.md"
+    "_notes/Public/DEN/DEN - 2022-11-15.md",
+    "Untitled.md",
+    "_notes/Public/Datas/Kafka - 카프카 역사와 기본.md",
+    "_notes/Public/DEN/DEN - 2022-11-14.md",
+    "_notes/Public/K8s/Micro Service Architecture and Service.md",
+    "_notes/Public/Datas/대형 서비스 아키텍처.md"
   ]
 }

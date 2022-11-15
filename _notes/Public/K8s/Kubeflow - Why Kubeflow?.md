@@ -2,7 +2,6 @@
 title: Kubeflow - Why Kubeflow?
 feed: hide
 ---
-# Kubeflow
 - 출처 [Kurly만의 MLOps 구축하기 - 쿠브플로우 도입기](https://helloworld.kurly.com/blog/second-mlops/)
 
 ## What is Kubeflow
@@ -42,6 +41,6 @@ feed: hide
 	- 환경 구성에 참고될만한 레퍼런스가 적다.
 		- 채택한 오픈소스가 많아 디버깅에 어려움이 있다.
 - sagemaker가 더 다양한 영역을 커버할 수 있는건 맞다.
-	- 하지만 비용 문제와 벤더 락인 문제는 무시할 수 업삳.
+	- 하지만 비용 문제와 벤더 락인 문제는 무시할 수 없다.
 	- 쿠버네티스를 사용하는 환경에서 kubeflow를 운영하고, 커버하지 못하는 부분을 다른 오픈소스 툴로 극복하는게 좋은 선택이라 판단했다.
 		- 지금같은 경우 이미 쿠버네티스에 대한 환경이 구축되어 있기 때문에 그랬지 않을까 싶다.
