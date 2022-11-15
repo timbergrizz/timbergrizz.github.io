@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "de4f60093dadbce7",
+        "id": "58f3a2fbd1aa0c35",
         "type": "tabs",
         "children": [
           {
-            "id": "09f57d6fc8ae65fd",
+            "id": "2b1cf4bcfda10367",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_notes/Public/DEN/DEN - 2022-11-14.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Public/DEN/DEN - 2022-11-14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_notes/Public/DEN/DEN - 2022-11-14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_notes/Public/DEN/DEN - 2022-11-14.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -136,11 +128,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "09f57d6fc8ae65fd",
+  "active": "2b1cf4bcfda10367",
   "lastOpenFiles": [
+    "_notes/Public/DEN/DEN - 2022-11-14.md",
     "_notes/Public/DEN/DEN - 2022-11-11.md",
     "_notes/Public/DEN/DEN - 2022-11-06.md",
-    "_notes/Public/DEN/DEN - 2022-11-14.md",
     "_notes/Public/Daily Engineering Notes.md",
     "_notes/Public/Machine Learning/NLP.md",
     "_notes/Public/Machine Learning/NLP/NLP - BERT.md",
