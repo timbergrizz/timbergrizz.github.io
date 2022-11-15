@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/Datas/AWS Redshift.md",
+                "file": "_notes/Public/DEN/DEN - 2022-11-15.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Public/Datas/AWS Redshift.md",
+                "file": "_notes/Public/DEN/DEN - 2022-11-15.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_notes/Public/Datas/AWS Redshift.md",
+                "file": "_notes/Public/DEN/DEN - 2022-11-15.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_notes/Public/Datas/AWS Redshift.md"
+                "file": "_notes/Public/DEN/DEN - 2022-11-15.md"
               }
             }
           }
@@ -163,15 +163,15 @@
   },
   "active": "f0ae6ec3ba552959",
   "lastOpenFiles": [
+    "_notes/Public/Datas/대형 서비스 아키텍처.md",
+    "_notes/Public/Datas/AWS Redshift.md",
     "_notes/Public/Datas/Apache Airflow.md",
     "_notes/Public/Data Engineering.md",
-    "_notes/Public/Datas/AWS Redshift.md",
     "_notes/Public/Datas/분산형 데이터 분석 아키텍처.md",
     "_notes/Public/DEN/DEN - 2022-11-15.md",
     "Untitled.md",
     "_notes/Public/Datas/Kafka - 카프카 역사와 기본.md",
     "_notes/Public/DEN/DEN - 2022-11-14.md",
-    "_notes/Public/K8s/Micro Service Architecture and Service.md",
-    "_notes/Public/Datas/대형 서비스 아키텍처.md"
+    "_notes/Public/K8s/Micro Service Architecture and Service.md"
   ]
 }
