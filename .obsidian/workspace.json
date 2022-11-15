@@ -4,35 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "de4f60093dadbce7",
+        "id": "6eeadeaf6e490e49",
         "type": "tabs",
         "children": [
           {
-            "id": "09f57d6fc8ae65fd",
+            "id": "33597728f356b4b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/DEN/DEN - 2022-11-14.md",
+                "file": "_notes/Public/Datas/AWS Redshift.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "da3d80ae8e5081e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_notes/Public/Datas/분산형 데이터 분석 아키텍처.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f0ae6ec3ba552959",
+            "id": "02e447f7b53e2763",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -44,7 +32,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -161,17 +149,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f0ae6ec3ba552959",
+  "active": "02e447f7b53e2763",
   "lastOpenFiles": [
-    "_notes/Public/Datas/대형 서비스 아키텍처.md",
-    "_notes/Public/Datas/AWS Redshift.md",
-    "_notes/Public/Datas/Apache Airflow.md",
-    "_notes/Public/Data Engineering.md",
-    "_notes/Public/Datas/분산형 데이터 분석 아키텍처.md",
-    "_notes/Public/DEN/DEN - 2022-11-15.md",
+    "_notes/Public/Datas/GCP BigQuery.md",
     "Untitled.md",
-    "_notes/Public/Datas/Kafka - 카프카 역사와 기본.md",
+    "_notes/Public/Datas/AWS Redshift.md",
+    "_notes/Public/Daily Engineering Notes.md",
+    "_notes/Public/DEN/DEN - 2022-11-15.md",
     "_notes/Public/DEN/DEN - 2022-11-14.md",
-    "_notes/Public/K8s/Micro Service Architecture and Service.md"
+    "_notes/Public/Datas/분산형 데이터 분석 아키텍처.md",
+    "_notes/Public/Datas/대형 서비스 아키텍처.md",
+    "_notes/Public/Datas/Apache Airflow.md",
+    "_notes/Public/Data Engineering.md"
   ]
 }
