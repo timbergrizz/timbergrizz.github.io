@@ -1,0 +1,1 @@
+- 출처 - [What is Kafka - Red Hat](https://www.redhat.com/ko/topics/integration/what-is-apache-kafka)
