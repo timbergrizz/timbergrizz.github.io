@@ -4,59 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "6eeadeaf6e490e49",
+        "id": "4df936c49296ef4e",
         "type": "tabs",
         "children": [
           {
-            "id": "33597728f356b4b1",
+            "id": "741422966b314220",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/K8s/Deploying with Kubernetes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d1c407339c85d32e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker - What is Docker.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d62fc7b004064ce6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_notes/Public/DEN/DEN - 2022-11-17.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2c379b89c4a7dfee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_notes/Public/DEN/DEN - 2022-11-17.md",
+                "file": "_notes/Public/Data Engineering.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Public/DEN/DEN - 2022-11-17.md",
+                "file": "_notes/Public/Data Engineering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_notes/Public/DEN/DEN - 2022-11-17.md",
+                "file": "_notes/Public/Data Engineering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_notes/Public/DEN/DEN - 2022-11-17.md"
+                "file": "_notes/Public/Data Engineering.md"
               }
             }
           }
@@ -173,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2c379b89c4a7dfee",
+  "active": "741422966b314220",
   "lastOpenFiles": [
-    "_notes/Public/Datas/Kafka.md",
-    "_notes/Public/DEN/DEN - 2022-11-17.md",
-    "_notes/Public/K8s/Kubeflow - Why Kubeflow?.md",
-    "_notes/Public/Datas/Spark - What is Big Data.md",
-    "Docker - What is Docker.md",
-    "_notes/Public/DEN/DEN - 2022-11-15.md",
-    "_notes/Public/Daily Engineering Notes.md",
-    "Untitled 1.md",
-    "_notes/Public/K8s/Deploying with Kubernetes.md",
-    "_notes/Public/Datas/Apache Airflow.md"
+    "_notes/Public/Datas/GCP BigQuery.md",
+    "_notes/Public/DEN/DEN - 2022-11-18.md",
+    "_notes/Public/Container/K8s/K8s - Service, Deployment.md",
+    "_notes/Public/Container/K8s/K8s - Monitoring and Logging.md",
+    "_notes/Public/Container/K8s/K8s - Scheduling.md",
+    "_notes/Public/Container/K8s/K8s - Resource Management.md",
+    "_notes/Public/Container/K8s/K8s - What is Kubernetes.md",
+    "_notes/Public/Container/K8s/K8s - Security.md",
+    "_notes/Public/Container/K8s/K8s - GCP Deploying.md",
+    "_notes/Public/Container/K8s/K8s - Continuous Integration and Deployment.md"
   ]
 }
