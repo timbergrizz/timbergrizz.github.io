@@ -1,3 +1,9 @@
+---
+title : Spark - What is Big Data
+feed : hide
+date : 19-11-2022
+---
+
 - 출처 : 한기용 멘토님 멘토링
 
 - Spark : 빅데이터 처리 시스템의 사실상 표준

@@ -1,5 +1,5 @@
 ---
-title: Kafka - 카프카 역사와 기본
+title: Kafka - 카프카 기본
 feed: hide
 ---
 
