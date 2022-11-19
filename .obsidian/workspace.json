@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/Data Engineering.md",
+                "file": "_notes/Public/DEN/DEN - 2022-11-08.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Public/Data Engineering.md",
+                "file": "_notes/Public/DEN/DEN - 2022-11-08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_notes/Public/Data Engineering.md",
+                "file": "_notes/Public/DEN/DEN - 2022-11-08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_notes/Public/Data Engineering.md"
+                "file": "_notes/Public/DEN/DEN - 2022-11-08.md"
               }
             }
           }
@@ -138,6 +138,7 @@
   },
   "active": "741422966b314220",
   "lastOpenFiles": [
+    "_notes/Public/Data Engineering.md",
     "_notes/Public/Datas/GCP BigQuery.md",
     "_notes/Public/DEN/DEN - 2022-11-18.md",
     "_notes/Public/Container/K8s/K8s - Service, Deployment.md",
@@ -146,7 +147,6 @@
     "_notes/Public/Container/K8s/K8s - Resource Management.md",
     "_notes/Public/Container/K8s/K8s - What is Kubernetes.md",
     "_notes/Public/Container/K8s/K8s - Security.md",
-    "_notes/Public/Container/K8s/K8s - GCP Deploying.md",
-    "_notes/Public/Container/K8s/K8s - Continuous Integration and Deployment.md"
+    "_notes/Public/Container/K8s/K8s - GCP Deploying.md"
   ]
 }

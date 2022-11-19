@@ -13,7 +13,6 @@ feed : show
 
 [[Spark - What is Big Data]]
 
-
 [[Kafka - 카프카 기본]]
 
 [[대형 서비스 아키텍처]]
