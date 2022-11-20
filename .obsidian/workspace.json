@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4df936c49296ef4e",
+        "id": "4365351819cd9b30",
         "type": "tabs",
         "children": [
           {
-            "id": "741422966b314220",
+            "id": "08ecf8603a728f33",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c6413cda1062b958",
@@ -136,17 +137,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "741422966b314220",
+  "active": "08ecf8603a728f33",
   "lastOpenFiles": [
-    "_notes/Public/Datas/Kafka - 카프카 기본.md",
-    "_notes/Public/Datas/분산형 데이터 분석 아키텍처 - 데이터 메쉬.md",
-    "_notes/Public/Datas/GCP BigQuery.md",
-    "_notes/Public/DEN/DEN - 2022-11-08.md",
-    "_notes/Public/Data Engineering.md",
     "_notes/Public/DEN/DEN - 2022-11-18.md",
-    "_notes/Public/Container/K8s/K8s - Service, Deployment.md",
-    "_notes/Public/Container/K8s/K8s - Monitoring and Logging.md",
-    "_notes/Public/Container/K8s/K8s - Scheduling.md",
-    "_notes/Public/Container/K8s/K8s - Resource Management.md"
+    "_notes/Public/Datas/Kafka.md",
+    "_notes/Public/Datas/AWS Redshift.md",
+    "_notes/Public/Datas/Apache Airflow.md",
+    "_notes/Public/Datas/분산형 데이터 분석 아키텍처 - 데이터 메쉬.md",
+    "_notes/Public/Datas/대형 서비스 아키텍처.md",
+    "_notes/Public/Datas/Spark - What is Big Data.md",
+    "_notes/Public/Datas/Kafka - 카프카 기본.md",
+    "_notes/Public/Datas/GCP BigQuery.md",
+    "_notes/Public/DEN/DEN - 2022-11-08.md"
   ]
 }
